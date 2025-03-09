@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lelang barang</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="sweetalert2.min.css" />
+    <!-- My styles -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+
+  <body>
+    <!-- navbar awal -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo"><span>Fade</span>auction.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#About">Tentang</a>
+        <a href="#menu">Produk Lelang</a>
+        <a href="#kontak">login</a>
+      </div>
+      
+        <a href="#" id="ham-menu"
+          ><i> <i data-feather="menu"></i></i
+        ></a>
+      </div>
+    </nav>
+    <!-- navbar akhir -->
+
+    <!-- halaman utama -->
+    <section class="hero" id="home">
+      <main data-aos="fade-up" class="content">
+        <h1>Ingin jual barang antik? di <span>lelangin</span> aja!</h1>
+      </main>
+    </section>
+    <!-- halaman utama selesai -->
+
+    <!-- Tentang kami start-->
+    <section id="About" class="About">
+      <h2 data-aos="fade-up"><span>Tentang</span> Kami</h2>
+      <div class="row">
+        <div data-aos="fade-right" class="about-img">
+          <img src="img/serebu.jpg" alt="Tentang Kami" />
+        </div>
+
+        <div data-aos="fade-left" class="content">
+          <h3>kenapa memilih toko kami?</h3>
+          <p>
+            Kami menyediakan platform lelang yang aman, adil dan dilakukan
+            secara anonim bagi komunitas pengumpul. Sejak didirikan, kami
+            berkomitmen untuk hanya menyajikan barang-barang menarik dan otentik
+            kepada pelanggan kami
+          </p>
+          <p>
+            Komitmen kami adalah menciptakan pengalaman lelang online yang luar
+            biasa dimana penjual dapat yakin bahwa barangnya ditangani dengan
+            integritas dan pembeli dapat membeli dengan percaya diri. Kami
+            bangga dengan komunitas yang kami bangun sekelompok individu yang
+            memiliki minat yang sama terhadap keindahan, sejarah, dan keunikan.
+            selain itu kami juga melelang barang yang masih bisa digunakan dan
+            berfungsi secara baik.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Tentang kami selesai-->
+
+    <!-- Produk Kami Start-->
+    <section id="menu" class="menu">
+      <h2 data-aos="fade-up"><span>Produk</span> lelang Kami</h2>
+      <p>Ini adalah produk Lelangan kami, Jika ingin melakukan
+        bid pastikan anda login terlebih dahulu. jika anda belum punya
+        akun atau ingin menjual barang anda,anda bisa melakukan chat kepada admin
+        dibagian bawah halaman login
+      </p>
+
+      <div data-aos="zoom-out" id="list-produk" class="list-produk"></div>
+    </section>
+    <!-- Produk Kami end -->
+
+    <!-- kontak section start -->
+    <section id="kontak" class="kontak">
+      <h2 data-aos="fade-up"><span>Daftarkan</span> anda</h2>
+      <p data-aos="fade-right">
+      login untuk malakukan bid barang yang anda
+        inginkan <br>
+        jika belum ada akun atau ingin menjual barang bisa klik link tertera lalu chat dengan admin
+      </p>
+
+      <div data-aos="zoom-in" class="row">
+        <form id="loginform" action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" id="username" name="admin" placeholder="Username" />
+
+            <div class="input-group">
+              <i data-feather="lock"></i>
+              <input type="password" id="password" name="123" placeholder="Password" />
+            </div>
+
+            <button type="submit" class="btn">Login</button>
+          </div>
+          <a href=https://wa.link/eouw6f>klik disini untuk daftar atau jual barang</a>
+        </form>
+        <p id="loginMessage"></p>
+      </div>
+    </section>
+    <!-- kontak sction end -->
+
+    <!-- footer start -->
+
+    <footer>
+
+      <div data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom" class="links">
+        <a href="#home">Home</a>
+        <a href="#about">tentang kami</a>
+        <a href="#menu">menu</a>
+        <a href="#kontak">Daftar</a>
+      </div>
+
+      <div data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom" class="credit">
+        <p>created by <a href="">Kelompok 4</a>. | &copy; 2023.</p>
+      </div>
+
+    </footer>
+
+    <!-- footer end -->
+
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Javascript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

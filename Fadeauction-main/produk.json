@@ -1,0 +1,14 @@
+{
+  "produk": [
+    { "id":1, "title": "hotwheels coral reef 2013", "price": "Rp.100.000", "img": "img/hotwheelscoralreef2013.jpg", "waktu": "7 hari lagi", "tinggi": "Rp.3.0000.000", "bts": "850.000" },
+    { "id":2,"title": "Intel core i9 13th gen", "price": "Rp.500.000", "img": "img/intel.jpg", "waktu": "5 hari lagi", "tinggi": "Rp.6.850.000", "bts": "1.300.000" },
+    { "id":3,"title": "pokemon 1998 trophy card", "price": "Rp.40.000", "img": "img/pokemon.jpg", "waktu": "7 hari lagi", "tinggi": "Rp.1.000.000", "bts": "350.000" },
+    { "id":4,"title": "lego technic bugatti", "price": "Rp.500.000", "img": "img/lego.jpg", "waktu": "2 minggu lagi", "tinggi": "Rp.5.000.000", "bts": "1.350.0000" },
+    { "id":5,"title": "Hotwheels halloween 1999", "price": "Rp.100.000", "img": "img/hotwheelshal.jpg", "waktu": "2 minggu lagi", "tinggi": "Rp.2.600.000", "bts": "750.000" },
+    { "id":6,"title": "Supra MK4", "price": "Rp.30.500.000", "img": "img/supra.jpg", "waktu": "1 bulan lagi", "tinggi": "Rp.350.000.000", "bts": "35.500.000" },
+    { "id":7,"title": "Keyboard razer pikachu limited edition", "price": "Rp.100.000", "img": "img/kb.jpg", "waktu": "3 minggu lagi", "tinggi": "Rp.1.700.000", "bts": "150.000" },
+    { "id":8,"title": "Nvidia 4090 founder edition", "price": "Rp.5.000.000", "img": "img/4090.jpg" , "waktu": "10 hari lagi", "tinggi": "Rp.26.500.000", "bts": "7.450.000"},
+    { "id":9,"title": "hotwheels collector number 271", "price": "Rp.150.000", "img": "img/hotwheels2.jpg" , "waktu": "1 bulan lagi", "tinggi": "Rp.3.000.000", "bts": "250.000"},
+    { "id":10,"title": "Jam tangan merk BALL", "price": "Rp.500.000", "img": "img/jam.jpg", "waktu": "3 minggu lagi", "tinggi": "Rp.7.520.000", "bts": "750.000" }
+  ]
+}
